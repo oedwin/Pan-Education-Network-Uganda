@@ -1,0 +1,234 @@
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+
+
+/* Home Page navbar  */
+.nav-header {
+    background-color: white;
+
+}
+
+/*css for nav bar*/
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 100px;
+    height: 100px;
+    padding-top: 0;
+    font-weight: bold;
+    color: #000 !important;
+}
+
+
+
+header.carousel .carousel-caption h4 {
+    color: #fff;
+    background: rgba(0, 0, 0, .5);
+}
+
+.about-info {
+    background-color: #ffa628;
+    color: black;
+    line-height: 1.5;
+}
+
+.about-info .content-title, .content-desc, p {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    margin-top: 0;
+
+}
+
+
+.content-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 50px;
+    background: #242a30;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+}
+
+p .btn {
+    border: 3px solid mediumseagreen;
+    color: #fff;
+    border-radius: 6px;
+    background: dodgerblue;
+
+
+}
+
+.prob-info, .footer{
+    background-color: #fff;
+    color: black;
+}
+
+.prob-info .content-title, .content-desc, p {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    margin-top: 0;
+}
+
+.prob-info .content-desc, .services-info .content-desc {
+    line-height: 1.5;
+
+}
+
+.services-info {
+    background-color: mediumseagreen;
+    color: black;
+}
+
+.services-info .content-title, .content-desc, p {
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    margin-top: 0;
+}
+
+.partnership-info {
+    background-color: #ffa628;
+    margin-bottom: 40px;
+
+
+}
+
+.partnership-info .content-title, .content-desc {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    margin-top: 0;
+
+}
+
+.contact-info .content-title {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    margin-top: 0;
+}
+
+.contact-info h3, h4{
+    text-align: left;
+    line-height: 1.5;
+
+}
+
+/* header images
+-------------------------------------------------- */
+.header .text-dec {
+    color: #fff;
+    background: rgba(0, 0, 0, .5);
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+
+.main {
+    background-color: ghostwhite;
+
+
+}
+
+
+
+/* Footer Styles*/
+
+footer {
+    margin: 20px 0;
+}
+
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer a {
+    color: mediumseagreen;
+}
+
+
+/* social media icons*/
+.social-icons .fa {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: black;
+    color: #fff;
+    font-size: 40px;
+
+}
+
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 960px) {
+    .navbar-nav li a {
+        line-height: 50px;
+        height: 50px;
+        padding-top: 0;
+    }
+    .navbar-brand {
+        font-size: 10px;
+    }
+
+}
+
+
+
+@media(max-width:767px) {
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+
+    .navbar-nav li a {
+        line-height: 50px;
+        height: 50px;
+        padding-top: 0;
+    }
+    .navbar-brand {
+        font-size: 10px;
+    }
+
+    header.carousel .carousel-caption h4, .header .text-dec {
+        font-size: 12px;
+    }
+
+
+    .header .text-dec {
+        font-size: 12px;
+    }
+
+    .content-desc h4 {
+        font-size: 12px !important;
+    }
+
+}
+
